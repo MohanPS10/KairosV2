@@ -121,6 +121,11 @@ function openTeacherGateAssessment() {
   openDialog("teacher-gate-assessment", "Gate Assessment");
 }
 
+// Specific function to open Teacher Roadmap Standards dialog
+function openTeacherRoadmapStandards() {
+  openDialog("teacher-roadmap-standards", "Standards view – My Roadmap");
+}
+
 function clearUserCache() {
   const p = PropertiesService.getUserProperties();
   [
